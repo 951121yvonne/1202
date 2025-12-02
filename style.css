@@ -1,0 +1,9 @@
+html, body {
+    margin: 0;         /* 移除頁面邊距 */
+    padding: 0;        /* 移除頁面內邊距 */
+    overflow: hidden;  /* 隱藏滾動條，確保只有畫布可見 */
+}
+
+canvas {
+    display: block;    /* 避免畫布下方出現小間隙 */
+}
